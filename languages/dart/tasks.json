@@ -11,6 +11,30 @@
     "args": ["run"],
     "tags": ["flutter-main"]
   },
+    {
+    "label": "flutter run",
+    "command": "flutter",
+    "args": ["run", "--flavor dev"],
+    "tags": ["flutter-main"]
+  },
+  {
+    "label": "fvm flutter run",
+    "command": "fvm flutter",
+    "args": ["run", "--flavor dev"],
+    "tags": ["flutter-main"]
+  },
+    {
+    "label": "flutter run",
+    "command": "flutter",
+    "args": ["run", "--flavor production"],
+    "tags": ["flutter-main"]
+  },
+  {
+    "label": "fvm flutter run",
+    "command": "fvm flutter",
+    "args": ["run", , "--flavor production"],
+    "tags": ["flutter-main"]
+  },
   {
     "label": "flutter test $ZED_STEM",
     "command": "flutter",
